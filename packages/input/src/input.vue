@@ -20,6 +20,7 @@ export default {
   methods: {
     handleInput (evt) {
       this.$emit('input', evt.target.value)
+      //
       const findParent = parent => {
         while (parent) {
           if (parent.$options.name === 'LgFormItem') {
