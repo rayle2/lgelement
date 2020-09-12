@@ -1,0 +1,13 @@
+17 error Error: Command failed: git remote update
+17 error remote: [31mRepository Not Found[0m
+17 error fatal: repository 'https://gitee.com/evo1uti0n/lgelement.git/' not found
+17 error error: Could not fetch origin
+17 error
+17 error Fetching origin
+17 error
+17 error     at makeError (D:\Dev\node_global\node_modules\lerna\node_modules\execa\index.js:174:9)
+17 error     at Function.module.exports.sync (D:\Dev\node_global\node_modules\lerna\node_modules\execa\index.js:338:15)
+17 error     at Object.execSync (D:\Dev\node_global\node_modules\lerna\node_modules\@lerna\child-process\index.js:26:16)
+17 error     at updateRemote (D:\Dev\node_global\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:26:16)
+17 error     at isBehindUpstream (D:\Dev\node_global\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:11:3)
+17 error     at VersionCommand.initialize (D:\Dev\node_global\node_modules\lerna\node_modules\@lerna\version\index.js:154:9)
